@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>选股牛人</title>
+    <script>
+        (function(){
+            var deviceWidth = document.documentElement.clientWidth < 640 ? document.documentElement.clientWidth : 640;
+            document.documentElement.style.fontSize = deviceWidth / 7.5 + 'px';//750的设计稿
+        })();
+    </script>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  (function(){
+    function resetFontSize () {
+      setTimeout(function(){
+        // 设置网页字体为默认大小
+        WeixinJSBridge.invoke('setFontSizeCallback', {'fontSize': 0});
+      },0);
+      // 重写设置网页字体大小的事件
+      WeixinJSBridge.on('menu:setfont', function () {
+        WeixinJSBridge.invoke('setFontSizeCallback', {'fontSize': 0});
+      });
+    }
+    if (typeof WeixinJSBridge === 'undefined') {
+      document.addEventListener('WeixinJSBridgeReady', function (e) {
+        resetFontSize();
+      });
+    } else {
+      resetFontSize();
+    }
+  })();
+</script>
+</body>
+</html>
