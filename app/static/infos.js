@@ -214,8 +214,14 @@ export default {
     teacher: '吴伟伟',
     color: '#f7f7f7',
     top: '10.5rem'
+  },
+  '20180807':{
+    bg: '20180807',
+    teacher: '吕向召',
+    color: '#BEB5A4',
+    top: '10.5rem'
   }
 }
 
-export const defaultDate = '20180803';
+export const defaultDate = '20180807';
 export const defaultWeb = 'cjtglm';
