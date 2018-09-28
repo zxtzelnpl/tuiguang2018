@@ -220,8 +220,33 @@ export default {
     teacher: '吕向召',
     color: '#BEB5A4',
     top: '10.5rem'
-  }
+  },
+  '20180828':{
+    bg: '20180828',
+    teacher: '马鑫',
+    color: '#D3B9A0',
+    top: '10.5rem'
+  },
+  '20180905a':{
+    bg: '20180905a',
+    teacher: '邵军杰',
+    color: '#A6AAAB',
+    top: '10.5rem'
+  },
+  '20180905b':{
+    bg: '20180905b',
+    teacher: '焦晓颖',
+    color: '#FCFCFC',
+    top: '10.5rem'
+  },
+  '20180928':{
+    bg: '20180928',
+    teacher: '董齐安',
+    color: '#D8DACD',
+    top: '10.5rem'
+  },
 }
 
-export const defaultDate = '20180807';
+export const defaultDate = '20180928';
 export const defaultWeb = 'cjtglm';
+//new.cjtglm.com/tuiguang/index.html#/cjtglm/20180928
