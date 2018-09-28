@@ -241,7 +241,7 @@ export default {
   },
   '20180928':{
     bg: '20180928',
-    teacher: '董齐安',
+    teacher: '邵军杰',
     color: '#D8DACD',
     top: '10.5rem'
   },
