@@ -256,9 +256,15 @@ export default {
     teacher:'周煜',
     color:'#E3E8EB',
     top:'10.5rem'
+  },
+  '20181022a':{
+    bg:'20181022a',
+    teacher: '焦晓颖',
+    color:'#ECECEC',
+    top:'10.5rem'
   }
 }
 
-export const defaultDate = '20181022';
+export const defaultDate = '20181022a';
 export const defaultWeb = 'cjtglm';
-//new.cjtglm.com/tuiguang/index.html#/cjtglm/20181022
+//new.cjtglm.com/tuiguang/index.html#/cjtglm/20181022a
