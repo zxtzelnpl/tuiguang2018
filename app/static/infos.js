@@ -245,8 +245,20 @@ export default {
     color: '#D8DACD',
     top: '10.5rem'
   },
+  '20181011':{
+    bg: '20181011',
+    teacher: '董齐安',
+    color: '#F2F2F2',
+    top: '10.5rem'
+  },
+  '20181022':{
+    bg:'20181022',
+    teacher:'周煜',
+    color:'#E3E8EB',
+    top:'10.5rem'
+  }
 }
 
-export const defaultDate = '20180928';
+export const defaultDate = '20181022';
 export const defaultWeb = 'cjtglm';
-//new.cjtglm.com/tuiguang/index.html#/cjtglm/20180928
+//new.cjtglm.com/tuiguang/index.html#/cjtglm/20181022
